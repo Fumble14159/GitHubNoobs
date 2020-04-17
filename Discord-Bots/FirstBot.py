@@ -20,9 +20,6 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
     
-    if message.content.startswith('lmao'):
-        await message.channel.send('LMAOKAI!')
-    
     if message.content.startswith('$purge'): 
         await message.delete                        #Deletes the message if it starts with '$purge'
         await message.channel.send('Purged')
