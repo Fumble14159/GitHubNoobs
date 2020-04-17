@@ -8,7 +8,7 @@ from discord.ext import commands
 client = commands.Bot(command_prefix ='.')
 
 @client.event
-async def on_ready():                                   #Message that pops up in CMD when we run our bot
+async def on_ready():                                 #Message that pops up in CMD when we run our bot
     print('Bot running as {0.user}'.format(client))
 
 
